@@ -1,17 +1,13 @@
 {
-  "name": "headless-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "wix-demo",
+  "private": "true",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild src/app.js --bundle --format=esm --outfile=docs/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@wix/api-client": "^1.1.72",
-    "@wix/bookings": "^1.0.142",
-    "@wix/stores": "^1.0.71"
+    "@wix/data": "^1.0.12",
+    "esbuild": "^0.17.19"
   }
 }
