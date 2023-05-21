@@ -1,0 +1,17 @@
+{
+  "name": "headless-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wix/api-client": "^1.1.72",
+    "@wix/bookings": "^1.0.142",
+    "@wix/stores": "^1.0.71"
+  }
+}
